@@ -94,11 +94,7 @@ OBJS_PRIMITIVES = \
 OBJS_SPECIALIZE = \
   softfloat_raiseFlags$(OBJ) \
   s_propagateNaNF16UI$(OBJ) \
-  s_f32UIToCommonNaN$(OBJ) \
-  s_commonNaNToF32UI$(OBJ) \
   s_propagateNaNF32UI$(OBJ) \
-  s_f64UIToCommonNaN$(OBJ) \
-  s_commonNaNToF64UI$(OBJ) \
   s_propagateNaNF64UI$(OBJ) \
   s_propagateNaNF128UI$(OBJ)
 
